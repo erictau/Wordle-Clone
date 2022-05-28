@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#guesses-board {
+    height: 400px;
+    width: 340px;
+    border: 2px solid black;
+}
+
+.row {
+    border: 1px solid black;
+    height: 16.7%;
+}
+
+.cell {
+    height: 50px; 
+    width: 50px; 
+    display: inline-block;
+    border: 1px solid black;
+    text-align: center;
+}
+
+div .wide-cell {
+    width: 100px;    
+}
+
+#current-guess {
+    width: 260px;
+    height: 50px;
+    border: 1px solid black;
+}
